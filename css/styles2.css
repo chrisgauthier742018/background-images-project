@@ -27,14 +27,15 @@ body {
 
 
 .nav-center {
-    width: 90vw;
-    max-width: 1170px;
+    width: 100vw;
     padding-left: 2rem;
 }
 
 .hero {
-    min-height: calc(100vh - 5rem);
+    height: 1170px;
     background: url("../images/coffee.jpg");
+    background-repeat: no-repeat;
+    background-image: cover;
     padding-left: 30px;
 }
 
